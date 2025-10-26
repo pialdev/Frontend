@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainBg{
+    background: rgb(255, 255, 255);
+    height: 1000px;
+}
+.menu{
+    background: red;
+  padding: 20px;
+ display: flex;
+ align-items: center;
+}
+ul,li{
+    list-style-type: none;
+    display: flex;
+    margin: 0 40px;
+    justify-content: center;
+  
+}
+ul,li,a{
+    text-decoration: none;
+    
+}
+.H2{
+    
+  width: 0;
+}
+.homee{
+    color: white;
+}
+.aboutt{
+    color: white; 
+}
+.logo{
+    color: rgb(63, 233, 11); 
+}
+.bookmarkss{
+    color: white; 
+}
+.contactt{
+    color: white; 
+}
