@@ -1,70 +1,21 @@
-/* All Common css Start */
-* {
+/* All common Css Start */
+*{
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-    
 }
-
-a {
-    text-decoration: none;
-}
-
-ul,
-ol {
-    list-style-type: none;
-}
-
-.container {
+.container{
     width: 1210px;
-    margin: 0 auto;
 }
-
-/* All Common Css End */
-/* Header Part Star */
-#headerPart {
-    background: #f9f9fc;
-    padding: 10px 0;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
-    align-items: center;
-}
-.menu ul{
-   display: flex;
-}
-.menu ul li a{
-    padding: 0 25px;
-    color: #000;
-    line-height: 70px;
-    font-weight: 400;
-}
-.button a{
-    padding: 10px 20px;
-    background: #5E3BEE;
-    border-radius: 50px;
-    color: #fff;
-    font-weight: 500;
-    font-size: 14px;
-}
-.button a i{
-    margin-left: 10px;
-}
-/* Header Part End */
-/* Header Part Start */
-/* Header Part End */
-/* Header Part Start */
-/* Header Part End */
-/* Header Part Start */
-/* Header Part End */
-/* Header Part Start */
-/* Header Part End */
-/* Header Part Start */
-/* Header Part End */
-/* Header Part Start */
-/* Header Part End */
+/* All common Css End */
+/* All common Css Start */
+/* All common Css End */
+/* All common Css Start */
+/* All common Css End */
+/* All common Css Start */
+/* All common Css End */
+/* All common Css Start */
+/* All common Css End */
+/* All common Css Start */
+/* All common Css End */
