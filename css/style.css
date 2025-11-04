@@ -1,16 +1,45 @@
 /* All common Css Start */
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     width: 1210px;
+    margin: 0 auto;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
 }
 /* All common Css End */
-/* All common Css Start */
-/* All common Css End */
+/* All Header Part Start */
+#headerPart {
+    background: #f9f9fc;
+    padding: 10px 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul{
+    display: flex;
+    text-transform: uppercase;
+    
+}
+.menu ul li a{
+    padding: 0 25px;
+    
+}
+/* All Header Part End */
 /* All common Css Start */
 /* All common Css End */
 /* All common Css Start */
