@@ -118,6 +118,12 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* Banner Part End */
 /* All common Css Start */
+#counterPart{
+    padding: 60px;
+    background: #f9f9fc00;
+
+}
+
 .counterFlex{
     display: flex;
     justify-content: space-between;
@@ -128,13 +134,14 @@ h1,h2,h3,h4,h5,h6,p{
     padding: 25px;
     box-shadow: 37px 37px 80px 0 rgba(0, 0, 0, 0.1);
     text-transform: uppercase;
+    border-radius: 25px;
 }
 .item h3{
     color: black;
     font-size: 48px;
     font-weight: 600;
     padding-bottom: 15px;
-    padding-top: 90px;
+    padding-top: 20px;
     
 
 }
@@ -142,8 +149,9 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 16px;
     font-weight: 500;
     color: #121212;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
+
 /* All common Css End */
 /* All common Css Start */
 /* All common Css End */
