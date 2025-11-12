@@ -149,15 +149,17 @@ p {
 
 /* Banner Part End */
 /* Counter Part Start */
-#counterPart{
+#counterPart {
     padding: 90px 0;
     background: #f9f9fc00;
 }
-.counterFlex{
+
+.counterFlex {
     display: flex;
     justify-content: space-between;
 }
-.item{
+
+.item {
     width: 23%;
     text-align: center;
     box-shadow: 37px 37px 80px 0 rgba(0, 0, 0, 0.1);
@@ -166,23 +168,189 @@ p {
     transition: .4s;
     text-transform: uppercase;
 }
-.item:hover{
+
+.item:hover {
     transform: scale(1.1);
 }
-.item h3{
+
+.item h3 {
     color: #000000;
     font-size: 48px;
     font-weight: 500;
     padding-top: 20px;
     padding-bottom: 15px;
 }
-.item h4{
+
+.item h4 {
     font-size: 16px;
     font-weight: 500;
     color: #000000;
     padding-bottom: 10px;
 }
+
 /* Counter Part End */
+/* Service Part Start */
+#servicePart {}
+
+.serviceMain {
+    height: 570px;
+
+}
+
+.service {
+    height: 210px;
+    position: relative;
+}
+
+.service img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.service h4 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5E3BEE;
+}
+
+.service h3 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100px;
+    font-size: 44px;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 0.5%;
+    width: 621px;
+}
+
+.service p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 150px;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5%;
+    text-align: center;
+    width: 550px;
+}
+
+.serviceitem {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+
+}
+
+.sItem {
+    text-align: center;
+    padding: 50px 0;
+    box-shadow: 37px 37px 80px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    transition: .4s;
+}
+
+.sItem:hover {
+    transform: scale(1.1);
+}
+
+.sItem h3 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 40px 0 10px;
+}
+
+.sItem p {
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: rgba(18, 18, 18, 0.7);
+    width: 307px;
+}
+
+/* Service Part End */
+/* All common Css Start */
+.expPadding {
+    padding: 135px 0 0 0;
+}
+
+.inpad {
+    padding: 160px 0 0 115px;
+}
+
+.exp {
+    background: url(../images/exp.svg);
+    height: 778px;
+}
+
+.exp h4 {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: #5E3BEE;
+}
+
+.exp h3 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+    width: 482px;
+
+}
+
+.exp p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 584px;
+    color: #333333;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    padding-bottom: 50px;
+}
+
+.inpad a {
+    background: #5E3BEE;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 50px;
+    transition: .4s;
+}
+
+.inpad i {
+    margin-right: 10px;
+}
+
+.inpad a:hover {
+    background: wheat;
+    color: tomato;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* All common Css End */
+/* All common Css Start */
+#partnership {
+    padding: 125px;
+}
+
+.imgholder img {
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+/* All common Css End */
 /* All common Css Start */
 /* All common Css End */
 /* All common Css Start */
